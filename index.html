@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>X and O Game</h1>
+    <div class="game">
+        <div class="board">
+            <div class="cell" onclick="makemove(0)"></div>
+            <div class="cell" onclick="makemove(1)"></div>
+            <div class="cell" onclick="makemove(2)"></div>
+            <div class="cell" onclick="makemove(3)"></div>
+            <div class="cell" onclick="makemove(4)"></div>
+            <div class="cell" onclick="makemove(5)"></div>
+            <div class="cell" onclick="makemove(6)"></div>
+            <div class="cell" onclick="makemove(7)"></div>
+            <div class="cell" onclick="makemove(8)"></div>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <h1>Guess the Number</h1>
+    <div class="guess-game">
+        <input type="number" id="guess-input" placeholder="Enter your guess(1-100)">
+        <button id="guess-button" onclick="checkGuess()">Guess</button>
+        <div id="guess-result"></div>
+    </div>
+    <script>
+
+
+    </script>
+<script src="index.js"></script>
+</body>
+
+</html>
